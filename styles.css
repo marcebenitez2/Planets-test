@@ -66,6 +66,7 @@
    .btn-container{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 2rem;
    }
 
    .btn{
@@ -155,5 +156,10 @@
     font-size: 16px;
    }
    
+}
 
+@media screen and (max-width:1914px){
+    body{
+        background-color: red;
+    }
 }
