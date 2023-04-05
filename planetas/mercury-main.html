@@ -1,69 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="../styles.css" />
-    <script
-      src="https://kit.fontawesome.com/d5cc788dce.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
 
-  <!-- NAVBAR -->
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="../styles.css" />
+  <script src="https://kit.fontawesome.com/d5cc788dce.js" crossorigin="anonymous"></script>
+</head>
 
-  <body>
-    <header>
-      <nav>
-        <div class="nav-responsive">
-          <h1 class="home">THE PLANETS</h1>
-          <i class="fa-sharp fa-solid fa-bars"></i>
-        </div>
+<!-- NAVBAR -->
 
-        <div class="nav-normal">
-          <h1 class="home">THE PLANETS</h1>
-          <ul class="list">
-            <li class="mercury" style="border-top: 5px solid #419db9"><a href="./mercury-main.html">MERCURY</a></li>
-            <li class="venus"><a href="./venus.html">VENUS</a></li>
-            <li class="earth"><a href="./earth.html">EARTH</a></li>
-            <li class="mars"><a href="./mars.html">MARS</a></l>
-            <li class="jupiter"><a href="./jupiter.html">JUPITER</a></li>
-            <li class="saturn"><a href="./saturn.html">SATURN</a></li>
-            <li class="uranos"><a href="./uranus.html">URANOS</a></li>
-            <li class="neptune"><a href="./neptune.html">NEPTUNE</a></li>
-          </ul>
-        </div>
-      </nav>
-    </header>
+<body>
+  <header>
+    <nav>
+      <div class="nav-responsive">
+        <h1 class="home">THE PLANETS</h1>
+        <i class="fa-sharp fa-solid fa-bars"></i>
+      </div>
 
-<!-- BODY -->
+      <div class="nav-normal">
+        <h1 class="home">THE PLANETS</h1>
+        <ul class="list">
+          <li class="mercury" style="border-top: 5px solid #419db9"><a href="./mercury-main.html">MERCURY</a></li>
+          <li class="venus"><a href="./venus.html">VENUS</a></li>
+          <li class="earth"><a href="./earth.html">EARTH</a></li>
+          <li class="mars"><a href="./mars.html">MARS</a></l>
+          <li class="jupiter"><a href="./jupiter.html">JUPITER</a></li>
+          <li class="saturn"><a href="./saturn.html">SATURN</a></li>
+          <li class="uranos"><a href="./uranus.html">URANOS</a></li>
+          <li class="neptune"><a href="./neptune.html">NEPTUNE</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- BODY -->
   <div class="container">
-    <div class="btn-container">
-      <div class="btn"><p id="number">01</p><p id="category">OVERVIEW</p></div>
-      <div class="btn"><p id="number">02</p><p id="category">STRUCTURE</p></div>
-      <div class="btn"><p id="number">03</p><p id="category">SURFACE</p></div>
+    <div class="carrousel">
+      <div class="btn-container">
+        <div class="btn">
+          <p id="number">01</p>
+          <p id="category">OVERVIEW</p>
+        </div>
+        <div class="btn">
+          <p id="number">02</p>
+          <p id="category">STRUCTURE</p>
+        </div>
+        <div class="btn">
+          <p id="number">03</p>
+          <p id="category">SURFACE</p>
+        </div>
+      </div>
+      <div class="img-container">
+        <img src="../src/mercury/planet-mercury.svg" alt="" class="img">
+      </div>
+      <div class="info-container">
+        <h1 class="name-planet">MERCURY</h1>
+        <p class="info-planet">Mercury is the smallest planet in the Solar System and the closest to the Sun. Its orbit
+          around the Sun takes 87.97 Earth days, the shortest of all the Sun's planets. Mercury is one of four
+          terrestrial planets in the Solar System, and is a rocky body like Earth.</p>
+        <p class="font">source: <a href="https://en.m.wikipedia.org/wiki/Mercury_(planet)"
+            class="font-src">Wikipedia</a></p>
+      </div>
     </div>
-    <div class="img-container">
-      <img src="../src/mercury/planet-mercury.svg" alt="" class="img">
-    </div>
-    <div class="info-container">
-      <h1 class="name-planet">MERCURY</h1>
-      <p class="info-planet">Mercury is the smallest planet in the Solar System and the closest to the Sun. Its orbit around the Sun takes 87.97 Earth days, the shortest of all the Sun's planets. Mercury is one of four terrestrial planets in the Solar System, and is a rocky body like Earth.</p>
-      <p class="font">source: <a href="https://en.m.wikipedia.org/wiki/Mercury_(planet)" class="font-src">Wikipedia</a></p>
-    </div>
+
     <div class="dates-container">
-      <div class="date"><p class="var">ROTATION TIME</p><p class="value">58.6 DAYS</p></div>
-      <div class="date"><p class="var">REVOLUTION TIME</p><p class="value">87.97 DAYS</p></div>
-      <div class="date"><p class="var">RADIUS</p><p class="value">2,439.7 KM</p></div>
-      <div class="date"><p class="var">AVERAGE TEMP.</p><p class="value">430°C</p></div>
+      <div class="date">
+        <p class="var">ROTATION TIME</p>
+        <p class="value">58.6 DAYS</p>
+      </div>
+      <div class="date">
+        <p class="var">REVOLUTION TIME</p>
+        <p class="value">87.97 DAYS</p>
+      </div>
+      <div class="date">
+        <p class="var">RADIUS</p>
+        <p class="value">2,439.7 KM</p>
+      </div>
+      <div class="date">
+        <p class="var">AVERAGE TEMP.</p>
+        <p class="value">430°C</p>
+      </div>
     </div>
   </div>
-    
 
-    
-      <script src="../app.js"></script>
-    </div>
-  </body>
+
+
+  <script src="../app.js"></script>
+  </div>
+</body>
+
 </html>
